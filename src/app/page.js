@@ -20,14 +20,13 @@ export default function Home() {
       <CtaBox />
       <AboutUs />
       <Services />
- 
       <Work />
       <Choose />
-      <Charger/>
-      <Team/>
-      <Testimonial/>
-      <Blog/>
-      <ContactUs/>
+      <Charger />
+      <Team />
+      <Testimonial />
+      <Blog />
+      <ContactUs />
 
     </>
   );
