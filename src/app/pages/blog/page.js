@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function Blog() {
     return (
         <div className="our-blog">
@@ -19,19 +22,19 @@ export default function Blog() {
                         <div className="blog-item wow fadeInUp">
                             <div className="post-featured-image" data-cursor-text="View">
                                 <figure>
-                                    <a href="#" className="image-anime">
-                                        <img src="/7.webp" alt="" />
-                                    </a>
+                                    <Link href="#" className="image-anime">
+                                         <Image src="/7.webp" alt="" />
+                                    </Link>
                                 </figure>
                             </div>
 
                             <div className="post-item-body">
-                                <h2><a href="#">How to Choose the Right Power Bank for Your Phone</a></h2>
+                                <h2><Link href="#">How to Choose the Right Power Bank for Your Phone</Link></h2>
                                 <p>Learn what to consider when buying a power bank, from capacity to charging speed.</p>
                             </div>
 
                             <div className="post-item-footer">
-                                <a href="#" className="read-more-btn">Read More</a>
+                                <Link href="#" className="read-more-btn">Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -40,19 +43,19 @@ export default function Blog() {
                         <div className="blog-item wow fadeInUp" data-wow-delay="0.25s">
                             <div className="post-featured-image" data-cursor-text="View">
                                 <figure>
-                                    <a href="#" className="image-anime">
-                                        <img src="/3.webp" alt="" />
-                                    </a>
+                                    <Link href="#" className="image-anime">
+                                         <Image src="/3.webp" alt="" />
+                                    </Link>
                                 </figure>
                             </div>
 
                             <div className="post-item-body">
-                                <h2><a href="#">Top 5 Wireless Chargers You Should Try</a></h2>
+                                <h2><Link href="#">Top 5 Wireless Chargers You Should Try</Link></h2>
                                 <p>Explore the best wireless chargers for fast and convenient charging.</p>
                             </div>
 
                             <div className="post-item-footer">
-                                <a href="#" className="read-more-btn">Read More</a>
+                                <Link href="#" className="read-more-btn">Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -61,19 +64,19 @@ export default function Blog() {
                         <div className="blog-item wow fadeInUp" data-wow-delay="0.25s">
                             <div className="post-featured-image" data-cursor-text="View">
                                 <figure>
-                                    <a href="#" className="image-anime">
-                                        <img src="/6.webp" alt="" />
-                                    </a>
+                                    <Link href="#" className="image-anime">
+                                         <Image src="/6.webp" alt="" />
+                                    </Link>
                                 </figure>
                             </div>
 
                             <div className="post-item-body">
-                                <h2><a href="#">Why You Need a Screen Protector for Your Smartphone</a></h2>
+                                <h2><Link href="#">Why You Need a Screen Protector for Your Smartphone</Link></h2>
                                 <p>Protect your phone’s screen from scratches and cracks with a high-quality screen protector.</p>
                             </div>
 
                             <div className="post-item-footer">
-                                <a href="#" className="read-more-btn">Read More</a>
+                                <Link href="#" className="read-more-btn">Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -81,7 +84,7 @@ export default function Blog() {
             </div>
 
             <div className="icon-star-image">
-                <img src="/logo.svg" alt="" />
+                 <Image src="/logo.svg" alt="" />
             </div>
         </div>
 

@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function Work() {
     return (
         <div className="how-it-work">
@@ -7,7 +10,7 @@ export default function Work() {
 
                     <div className="how-it-work-img">
                         <figure className=" image-anime">
-                            <img src="/Adapter.png"  alt="" />
+                             <Image src="/Adapter.png"  alt="" />
                         </figure>
                     </div>
 
@@ -26,7 +29,7 @@ export default function Work() {
 
                             <div className="accordion-item wow fadeInUp">
                                 <div className="icon-box">
-                                    <img src="/logo.svg" alt="" />
+                                     <Image src="/logo.svg" alt="" />
                                 </div>
                                 <h2 className="accordion-header" id="heading1">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse"
@@ -44,7 +47,7 @@ export default function Work() {
 
                             <div className="accordion-item wow fadeInUp" data-wow-delay="0.25s">
                                 <div className="icon-box">
-                                    <img src="/logo.svg" alt="" />
+                                     <Image src="/logo.svg" alt="" />
                                 </div>
                                 <h2 className="accordion-header" id="heading2">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -62,7 +65,7 @@ export default function Work() {
 
                             <div className="accordion-item wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="icon-box">
-                                    <img src="/logo.svg" alt="" />
+                                     <Image src="/logo.svg" alt="" />
                                 </div>
                                 <h2 className="accordion-header" id="heading3">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"

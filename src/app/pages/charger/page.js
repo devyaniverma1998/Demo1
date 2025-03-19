@@ -1,3 +1,7 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
+
 export default function Charger() {
     return (
         <div className="why-choose-us" style={{background:"none"}}>
@@ -17,7 +21,7 @@ export default function Charger() {
                         <div className="why-choose-box-1">
                             <div className="why-choose-item wow fadeInUp">
                                 <div className="icon-box">
-                                    <img src="/6.webp" alt="Charger" />
+                                     <Image src="/6.webp" alt="Charger" />
                                 </div>
                                 <div className="why-choose-content">
                                     <h3>Fast Charger</h3>
@@ -26,7 +30,7 @@ export default function Charger() {
                             </div>
                             <div className="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                                 <div className="icon-box">
-                                    <img src="/1.webp" alt="Charger" />
+                                     <Image src="/1.webp" alt="Charger" />
                                 </div>
                                 <div className="why-choose-content">
                                     <h3>Reliable Charger</h3>
@@ -35,7 +39,7 @@ export default function Charger() {
                             </div>
                             <div className="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="icon-box">
-                                    <img src="/2.webp" alt="Charger" />
+                                     <Image src="/2.webp" alt="Charger" />
                                 </div>
                                 <div className="why-choose-content">
                                     <h3>Multi-Port Charger</h3>
@@ -48,7 +52,7 @@ export default function Charger() {
                     <div className="col-lg-4 order-lg-1 order-md-2 order-1">
                         <div className="why-choose-image wow fadeInUp">
                             <figure>
-                                <img src="/3.webp" alt="Charger" />
+                                 <Image src="/3.webp" alt="Charger" />
                             </figure>
                         </div>
                     </div>
@@ -57,7 +61,7 @@ export default function Charger() {
                         <div className="why-choose-box-2">
                             <div className="why-choose-item wow fadeInUp">
                                 <div className="icon-box">
-                                    <img src="/4.webp" alt="Charger" />
+                                     <Image src="/4.webp" alt="Charger" />
                                 </div>
                                 <div className="why-choose-content">
                                     <h3> Charger</h3>
@@ -66,7 +70,7 @@ export default function Charger() {
                             </div>
                             <div className="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                                 <div className="icon-box">
-                                    <img src="/5.webp" alt="Charger" />
+                                     <Image src="/5.webp" alt="Charger" />
                                 </div>
                                 <div className="why-choose-content">
                                     <h3>Portable Charger</h3>
@@ -75,7 +79,7 @@ export default function Charger() {
                             </div>
                             <div className="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                                 <div className="icon-box">
-                                    <img src="/7.webp" alt="Charger" />
+                                     <Image src="/7.webp" alt="Charger" />
                                 </div>
                                 <div className="why-choose-content">
                                     <h3>Universal Charger</h3>
@@ -87,7 +91,7 @@ export default function Charger() {
                 </div>
             </div>
             <div className="icon-star-image">
-                <img src="/logo.svg" alt="Logo" />
+                 <Image src="/logo.svg" alt="Logo" />
             </div>
         </div>
     )

@@ -1,3 +1,7 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
+
 export default function Choose() {
     return (
         <div className="why-choose-us">
@@ -17,7 +21,7 @@ export default function Choose() {
                     <div className="why-choose-box-1">
                         <div className="why-choose-item wow fadeInUp">
                             <div className="icon-box">
-                                <img src="/charger.png" alt="Charger" />
+                                 <Image src="/charger.png" alt="Charger" />
                             </div>
                             <div className="why-choose-content">
                                 <h3>Charger</h3>
@@ -26,7 +30,7 @@ export default function Choose() {
                         </div>
                         <div className="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                             <div className="icon-box">
-                                <img src="/datacable.png" alt="Data Cable" />
+                                 <Image src="/datacable.png" alt="Data Cable" />
                             </div>
                             <div className="why-choose-content">
                                 <h3>Data Cable</h3>
@@ -35,7 +39,7 @@ export default function Choose() {
                         </div>
                         <div className="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
                             <div className="icon-box">
-                                <img src="/extension-cord.png" alt="Extension Board" />
+                                 <Image src="/extension-cord.png" alt="Extension Board" />
                             </div>
                             <div className="why-choose-content">
                                 <h3>Extension Board</h3>
@@ -48,7 +52,7 @@ export default function Choose() {
                 <div className="col-lg-4 order-lg-1 order-md-2 order-1">
                     <div className="why-choose-image wow fadeInUp">
                         <figure>
-                            <img src="/5.webp" alt="Featured Product" />
+                             <Image src="/5.webp" alt="Featured Product" />
                         </figure>
                     </div>
                 </div>
@@ -57,7 +61,7 @@ export default function Choose() {
                     <div className="why-choose-box-2">
                         <div className="why-choose-item wow fadeInUp">
                             <div className="icon-box">
-                                <img src="/internet-connection.png" alt="Mini WiFi UPS" />
+                                 <Image src="/internet-connection.png" alt="Mini WiFi UPS" />
                             </div>
                             <div className="why-choose-content">
                                 <h3>Mini WiFi UPS</h3>
@@ -66,7 +70,7 @@ export default function Choose() {
                         </div>
                         <div className="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                             <div className="icon-box">
-                                <img src="/water-tank.png" alt="Water Alarm" />
+                                 <Image src="/water-tank.png" alt="Water Alarm" />
                             </div>
                             <div className="why-choose-content">
                                 <h3>Water Alarm</h3>
@@ -78,7 +82,7 @@ export default function Choose() {
             </div>
         </div>
         <div className="icon-star-image">
-            <img src="/logo.svg" alt="Logo" />
+             <Image src="/logo.svg" alt="Logo" />
         </div>
     </div>
     

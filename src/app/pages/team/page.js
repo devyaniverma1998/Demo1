@@ -1,3 +1,7 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
+
 export default function Team() {
     return (
         <div className="our-team">
@@ -17,14 +21,14 @@ export default function Team() {
                 <div className="team-member-item wow fadeInUp">
                     <div className="team-image">
                         <figure className="image-anime">
-                            <img src="/user-1.jpg" alt=""/>
+                             <Image src="/user-1.jpg" alt=""/>
                         </figure>
                         <div className="team-social-icon">
                             <ul>
-                                <li><a href="#" className="social-icon"><i className="bi bi-facebook"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-youtube"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-instagram"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-pinterest"></i></a></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-facebook"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-youtube"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-instagram"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-pinterest"></i></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -39,14 +43,14 @@ export default function Team() {
                 <div className="team-member-item wow fadeInUp" data-wow-delay="0.25s">
                     <div className="team-image">
                         <figure className="image-anime">
-                            <img src="/user-2.jpg" alt=""/>
+                             <Image src="/user-2.jpg" alt=""/>
                         </figure>
                         <div className="team-social-icon">
                             <ul>
-                                <li><a href="#" className="social-icon"><i className="bi bi-facebook"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-youtube"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-instagram"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-pinterest"></i></a></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-facebook"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-youtube"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-instagram"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-pinterest"></i></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -61,14 +65,14 @@ export default function Team() {
                 <div className="team-member-item wow fadeInUp" data-wow-delay="0.5s">
                     <div className="team-image">
                         <figure className="image-anime">
-                            <img src="/user-3.jpg" alt=""/>
+                             <Image src="/user-3.jpg" alt=""/>
                         </figure>
                         <div className="team-social-icon">
                             <ul>
-                                <li><a href="#" className="social-icon"><i className="bi bi-facebook"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-youtube"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-instagram"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-pinterest"></i></a></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-facebook"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-youtube"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-instagram"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-pinterest"></i></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -83,14 +87,14 @@ export default function Team() {
                 <div className="team-member-item wow fadeInUp" data-wow-delay="0.75s">
                     <div className="team-image">
                         <figure className="image-anime">
-                            <img src="/user-4.jpg" alt=""/>
+                             <Image src="/user-4.jpg" alt=""/>
                         </figure>
                         <div className="team-social-icon">
                             <ul>
-                                <li><a href="#" className="social-icon"><i className="bi bi-facebook"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-youtube"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-instagram"></i></a></li>
-                                <li><a href="#" className="social-icon"><i className="bi bi-pinterest"></i></a></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-facebook"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-youtube"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-instagram"></i></Link></li>
+                                <li><Link href="#" className="social-icon"><i className="bi bi-pinterest"></i></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -104,7 +108,7 @@ export default function Team() {
     </div>
 
     <div className="icon-star-image">
-        <img src="/logo.svg" alt=""/>
+         <Image src="/logo.svg" alt=""/>
     </div>
 </div>
 

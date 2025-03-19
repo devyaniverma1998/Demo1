@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Hero />
       <CtaBox />
-      <AboutUs />
+     <AboutUs/>
       <Services />
       <Work />
       <Choose />

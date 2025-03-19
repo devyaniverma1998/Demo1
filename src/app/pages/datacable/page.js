@@ -1,3 +1,7 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
+
 export default function DataCable(){
     return(
         <div className="our-services">
@@ -16,7 +20,7 @@ export default function DataCable(){
                     <div className="service-item wow fadeInUp">
                         <div className="icon-box">
                             <div className="img">
-                                <img src="/charger.png" alt="Charger"/>
+                                 <Image src="/charger.png" alt="Charger"/>
                             </div>
                         </div>
                         <div className="service-body">
@@ -29,7 +33,7 @@ export default function DataCable(){
                     <div className="service-item wow fadeInUp" data-wow-delay="0.25s">
                         <div className="icon-box">
                             <div className="img">
-                                <img src="/datacable.png" alt="Data Cable"/>
+                                 <Image src="/datacable.png" alt="Data Cable"/>
                             </div>
                         </div>
                         <div className="service-body">
@@ -42,7 +46,7 @@ export default function DataCable(){
                     <div className="service-item wow fadeInUp" data-wow-delay="0.5s">
                         <div className="icon-box">
                             <div className="img">
-                                <img src="/datacable.png" alt="Extension Board"/>
+                                 <Image src="/datacable.png" alt="Extension Board"/>
                             </div>
                         </div>
                         <div className="service-body">
@@ -55,7 +59,7 @@ export default function DataCable(){
                     <div className="service-item wow fadeInUp" data-wow-delay="0.75s">
                         <div className="icon-box">
                             <div className="img">
-                                <img src="/charger.png" alt="Mini WiFi UPS"/>
+                                 <Image src="/charger.png" alt="Mini WiFi UPS"/>
                             </div>
                         </div>
                         <div className="service-body">
@@ -68,7 +72,7 @@ export default function DataCable(){
                     <div className="service-item wow fadeInUp" data-wow-delay="1s">
                         <div className="icon-box">
                             <div className="img">
-                                <img src="/wateralarm.png" alt="Water Alarm"/>
+                                 <Image src="/wateralarm.png" alt="Water Alarm"/>
                             </div>
                         </div>
                         <div className="service-body">
@@ -80,7 +84,7 @@ export default function DataCable(){
             </div>
         </div>
         <div className="icon-star-image">
-            <img src="images/icon-star.svg" alt=""/>
+             <Image src="images/icon-star.svg" alt=""/>
         </div>
     </div>
     

@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BreadCrumb from '../breadcrumb/page';
 export default function ContactUs() {
@@ -31,7 +34,7 @@ export default function ContactUs() {
                         <div className="contact-now-info">
                             <div className="contact-info-list wow fadeInUp" data-wow-delay="0.2s">
                                 <div className="icon-box">
-                                    <img src="/logo.svg" alt="" />
+                                     <Image src="/logo.svg" alt="" />
                                 </div>
                                 <div className="contact-info-content">
                                     <p>24/11 Robert Road, New York, USA</p>
@@ -40,7 +43,7 @@ export default function ContactUs() {
     
                             <div className="contact-info-list wow fadeInUp" data-wow-delay="0.4s">
                                 <div className="icon-box">
-                                    <img src="/logo.svg" alt="" />
+                                     <Image src="/logo.svg" alt="" />
                                 </div>
                                 <div className="contact-info-content">
                                     <p>+91 XXXXXXXXXX</p>
@@ -49,7 +52,7 @@ export default function ContactUs() {
     
                             <div className="contact-info-list wow fadeInUp" data-wow-delay="0.6s">
                                 <div className="icon-box">
-                                    <img src="/logo.svg" alt="" />
+                                     <Image src="/logo.svg" alt="" />
                                 </div>
                                 <div className="contact-info-content">
                                     <p>support@yourstore.com</p>
@@ -58,7 +61,7 @@ export default function ContactUs() {
     
                             <div className="contact-info-list wow fadeInUp" data-wow-delay="0.8s">
                                 <div className="icon-box">
-                                    <img src="/logo.svg" alt="" />
+                                     <Image src="/logo.svg" alt="" />
                                 </div>
                                 <div className="contact-info-content">
                                     <p>Mon to Sat 10:00 AM - 6:00 PM</p>
@@ -67,7 +70,7 @@ export default function ContactUs() {
                         </div>
     
                         <div className="contact-appointment-btn wow fadeInUp" data-wow-delay="1s">
-                            <a href="/pages/contact" className="btn-default">Visit Our Store</a>
+                            <Link href="/pages/contact" className="btn-default">Visit Our Store</Link>
                         </div>
                     </div>
                 </div>

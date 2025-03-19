@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function AboutUs() {
     return (
 
@@ -8,17 +11,17 @@ export default function AboutUs() {
                     <div className="about-image">
                         <div className="about-img-1">
                             <figure className="image-anime reveal">
-                                <img src="/4.jpg" className="w-100" alt="Data Cable"/>
+                                 <Image src="/4.jpg" className="w-100" alt="Data Cable"/>
                             </figure>
                         </div>
                         <div className="about-img-2">
                             <figure className="image-anime reveal">
-                                <img src="/5.jpg" className="w-100" alt="High-Quality Data Cable"/>
+                                 <Image src="/5.jpg" className="w-100" alt="High-Quality Data Cable"/>
                             </figure>
                         </div>
                         <div className="about-experience">
                             <figure>
-                                <img src="/myzk.webp" width={100} alt="Brand Logo"/>
+                                 <Image src="/myzk.webp" width={100} alt="Brand Logo"/>
                             </figure>
                         </div>
                     </div>
@@ -40,7 +43,7 @@ export default function AboutUs() {
                             </ul>
                         </div>
                         <div className="about-us-footer wow fadeInUp" data-wow-delay="0.75s">
-                            <a href="/pages/about" className="btn-default">Read More About Us</a>
+                            <Link href="/pages/about" className="btn-default">Read More About Us</Link>
                         </div>
                     </div>
                 </div>

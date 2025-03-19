@@ -1,3 +1,7 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
+
 export default function BreadCrumb() {
     return (
         <div className="page-header">
@@ -9,7 +13,7 @@ export default function BreadCrumb() {
 					
 						<nav className="wow fadeInUp">
 							<ol className="breadcrumb">
-								<li className="breadcrumb-item"><a href="/">home</a></li>
+								<li className="breadcrumb-item"><Link href="/">home</Link></li>
 							
 							</ol>
 						</nav>

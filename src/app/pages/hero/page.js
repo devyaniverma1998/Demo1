@@ -1,4 +1,6 @@
 "use client"; // If using Next.js with App Router
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Hero() {
     return (
@@ -19,7 +21,7 @@ export default function Hero() {
 
                             {/* Appointment Button */}
                             <div className="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="/pages/conatct" className="btn-default">Contact Us</a>
+                                <Link href="/pages/conatct" className="btn-default">Contact Us</Link>
                             </div>
 
                             {/* Google Rating */}
@@ -44,7 +46,7 @@ export default function Hero() {
                         <div className="hero-image">
                             <div className="hero-img">
                                 <figure>
-                                    <img src="/Adapter.png" alt="" />
+                                     <Image src="/Adapter.png" alt="" />
                                 </figure>
                             </div>
 
@@ -52,7 +54,7 @@ export default function Hero() {
                             <div className="export-dantist-box">
                                 <div className="icon-box">
                                     <figure className="image-anime">
-                                        <img src="/myzk.webp" alt="Dr. Clara Lee" />
+                                         <Image src="/myzk.webp" alt="Dr. Clara Lee" />
                                     </figure>
                                 </div>
                                 {/* <div className="export-dantist-content">
@@ -64,19 +66,19 @@ export default function Hero() {
                             {/* Icons List */}
                             <div className="hero-icon-list">
                                 <div className="hero-icon-box-1">
-                                    <img src="/logo.svg" alt="Icon 1" />
+                                     <Image src="/logo.svg" alt="Icon 1" />
                                 </div>
                                 <div className="hero-icon-box-2">
-                                    <img src="/logo.svg" alt="Icon 2" />
+                                     <Image src="/logo.svg" alt="Icon 2" />
                                 </div>
                                 <div className="hero-icon-box-3">
-                                    <img src="/logo.svg" alt="Icon 3" />
+                                     <Image src="/logo.svg" alt="Icon 3" />
                                 </div>
                             </div>
 
                             {/* Star Icon */}
                             <div className="icon-star-image">
-                                <img src="/myzk.webp" alt="Star Icon" />
+                                 <Image src="/myzk.webp" alt="Star Icon" />
                             </div>
                         </div>
                     </div>

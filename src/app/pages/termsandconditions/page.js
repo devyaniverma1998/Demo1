@@ -1,28 +1,32 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BreadCrumb from "../breadcrumb/page";
+
 export default function TermsandConditions() {
     return (
         <>
             <BreadCrumb />
-            <div className='container'>
+            <div className="container">
                 <h2>Legal Name</h2>
                 <p><strong>Digital Telemedia Technology Pvt Ltd</strong></p>
 
-                <h2>Shipping & Delivery Policy</h2>
+                <h2>Shipping &amp; Delivery Policy</h2>
                 <h3>Shipping Policy</h3>
                 <ul>
                     <li>🚀 <strong>Dispatch Time:</strong> All orders will be dispatched within 2 working days under most circumstances.</li>
                     <li>⚠️ <strong>Delays:</strong> In rare cases, due to unavoidable circumstances, the dispatch may be delayed.</li>
                 </ul>
 
-                <h3>Shipping & Delivery Options</h3>
+                <h3>Shipping &amp; Delivery Options</h3>
                 <ul>
                     <li>We offer multiple shipping methods. Some orders may be fulfilled by third-party suppliers.</li>
                     <li>✅ Free Shipping is available on eligible orders.</li>
                     <li>📦 Expedited Shipping options may be available, and additional details will be shared after order placement.</li>
                 </ul>
 
-                <h3>Shipping & Delivery Time</h3>
+                <h3>Shipping &amp; Delivery Time</h3>
                 <ul>
                     <li>📦 <strong>Processing Time:</strong> Orders ship within 48 hours.</li>
                     <li>🚚 <strong>Estimated Delivery:</strong> 4-7 business days.</li>
@@ -38,7 +42,7 @@ export default function TermsandConditions() {
                 <p>These Terms of Use govern your use of <strong>www.MYZK.in</strong>. By using this website, you accept these Terms in full. If you disagree, please do not use this website.</p>
 
                 <h3>Use of Cookies</h3>
-                <p>This website may use cookies. By using this website, you consent to MYZK.in’s cookie usage as per the Privacy Policy.</p>
+                <p>This website may use cookies. By using this website, you consent to MYZK.in&apos;s cookie usage as per the Privacy Policy.</p>
 
                 <h3>License to Use the Website</h3>
                 <p>All content on this website is owned by MYZK.in or its licensors. You may:</p>
@@ -55,7 +59,7 @@ export default function TermsandConditions() {
                 <h3>Acceptable Use</h3>
                 <p>You must not:</p>
                 <ul>
-                    <li>❌ Damage, disrupt, or impair the website’s availability.</li>
+                    <li>❌ Damage, disrupt, or impair the website&apos;s availability.</li>
                     <li>❌ Use the website for unlawful, fraudulent, or harmful activities.</li>
                     <li>❌ Transmit viruses, spyware, or other malicious software.</li>
                     <li>❌ Perform automated data collection (scraping, mining, harvesting, etc.).</li>
@@ -67,8 +71,8 @@ export default function TermsandConditions() {
                 <p>Your content must not be illegal, infringe on third-party rights, or be subject to legal disputes.</p>
                 <p>MYZK.in reserves the right to edit or remove any content at its discretion.</p>
 
-                <h3>Website Availability & Warranties</h3>
-                <p>🚨 The website is provided "as is" without guarantees of:</p>
+                <h3>Website Availability &amp; Warranties</h3>
+                <p>🚨 The website is provided &quot;as is&quot; without guarantees of:</p>
                 <ul>
                     <li>Constant availability.</li>
                     <li>Accuracy or completeness of the information.</li>
@@ -104,7 +108,7 @@ export default function TermsandConditions() {
                 <h3>Severability</h3>
                 <p>If any part of these Terms is found unlawful, the rest remains valid.</p>
 
-                <h3>Governing Law & Jurisdiction</h3>
+                <h3>Governing Law &amp; Jurisdiction</h3>
                 <p>These Terms are governed by Indian law, and any disputes will be handled in New Delhi courts.</p>
 
                 <h3>Policy Updates</h3>

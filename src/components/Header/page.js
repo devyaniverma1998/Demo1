@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function Header() {
  return (
        <>
@@ -6,22 +9,22 @@ export default function Header() {
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
 
-                        <a className="navbar-brand" href="/">
-                            <img src="/myzk.webp" width={100} alt="Logo" />
-                        </a>
+                        <Link className="navbar-brand" href="/">
+                            <Image src="/myzk.webp" width={100} alt="Logo" />
+                        </Link>
 
                         <div className="collapse navbar-collapse main-menu">
                             <div className="nav-menu-wrapper">
                                 <ul className="navbar-nav mr-auto" id="menu">
-                                    <li className="nav-item submenu"><a className="nav-link" href="/">Home</a>
+                                    <li className="nav-item submenu"><Link className="nav-link" href="/">Home</Link>
 
                                     </li>
-                                    <li className="nav-item"><a className="nav-link" href="/pages/about">About Us</a></li>
-                                    <li className="nav-item"><a className="nav-link" href="/pages/shop">Shop</a></li>
-                                    <li className="nav-item"><a className="nav-link" href="/pages/gallery">Gallery</a>
+                                    <li className="nav-item"><Link className="nav-link" href="/pages/about">About Us</Link></li>
+                                    <li className="nav-item"><Link className="nav-link" href="/pages/shop">Shop</Link></li>
+                                    <li className="nav-item"><Link className="nav-link" href="/pages/gallery">Gallery</Link>
 
                                     </li>
-                                    <li className="nav-item"><a className="nav-link" href="/pages/contact">Contact Us</a></li>
+                                    <li className="nav-item"><Link className="nav-link" href="/pages/contact">Contact Us</Link></li>
 
                                 </ul>
                             </div>
